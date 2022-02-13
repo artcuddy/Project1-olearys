@@ -27,7 +27,29 @@ h3 {
   color: #000;
 }
 
+h1 {
+  font-size: clamp(3rem, 2.4444444444444446rem + 2.7777777777777777vw, 6rem);
 
+  @supports not (font-size: clamp(3rem, 2.7777777777777777vw, 6rem)) {
+    font-size: min(max(2rem, 2.7777777777777777vw), 3rem);
+  }
+}
+
+h2 {
+  font-size: clamp(2rem, 1.8148148148148149rem + 0.9259259259259258vw, 3rem);
+
+  @supports not (font-size: clamp(2rem, 0.9259259259259258vw, 3rem)) {
+    font-size: min(max(2rem, 0.9259259259259258vw), 3rem);
+  }
+}
+
+h3 {
+  font-size: clamp(2rem, 1.9074074074074074rem + 0.4629629629629629vw, 2.5rem);
+
+  @supports not (font-size: clamp(2rem, 0.4629629629629629vw, 2.5rem)) {
+    font-size: min(max(2rem, 0.4629629629629629vw), 2.5rem);
+  }
+}
 
 a {
   text-decoration: none;
@@ -49,10 +71,10 @@ header {
 }
 
 #logo {
-  font-size: clamp(2rem, 1.4444444444444444rem + 2.7777777777777777vw, 5rem);
+  font-size: clamp(3rem, 2.4444444444444446rem + 2.7777777777777777vw, 6rem);
 
-  @supports not (font-size: clamp(2rem, 2.7777777777777777vw, 5rem)) {
-    font-size: min(max(2rem, 2.7777777777777777vw), 5rem);
+  @supports not (font-size: clamp(3rem, 2.7777777777777777vw, 6rem)) {
+    font-size: min(max(3rem, 2.7777777777777777vw), 6rem);
   }
 }
 
@@ -97,4 +119,22 @@ header {
   width: 100%;
   height: min(800px, 70%);
   background-size: cover;
+}
+
+#home-overlay-text h2 {
+  color: #fff;
+}
+
+#home-overlay-text {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 600px;
+  height: 100px;
+  background-color: #000;
+  bottom: 180px;
+  padding-left: 40px;
+  position: absolute;
 }
