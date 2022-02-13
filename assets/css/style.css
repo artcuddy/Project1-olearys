@@ -23,6 +23,10 @@ p {
   }
 }
 
+hr {
+  border: 2px solid #5b5b5b;
+}
+
 /* headings */
 
 h1,
@@ -158,8 +162,18 @@ header {
   padding: 75px;
 }
 
+.left-box p {
+  margin-top: 30px;
+  padding-right: 75px;
+}
+
 .right-box {
-  padding: 40px;
+  padding: 75px;
+}
+
+.right-box p {
+  margin-top: 30px;
+  padding-right: 75px;
 }
 
 /* pub section */
@@ -186,13 +200,16 @@ header {
 
 /* Beer section */
 
+#beer-section {
+  width: 100%;
+}
+
 #beer-headline {
   text-align: center;
-  margin-bottom: 40px;
 }
 
 #beer-image-cards {
-  padding: 0 75px 0 75px;
+  padding: 75px 75px 0 75px;
   width: 100%;
   clear: both;
   display: inline-flex;
