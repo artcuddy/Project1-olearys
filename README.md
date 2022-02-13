@@ -1,6 +1,6 @@
 # O'Leary's Irish Pub & Restaurant
 
-O'Leary's Irish Pub & Restaurant is a site that hopes to bring a little bit of Ireland to the people of The Netherlands. The site will be targeted toward lovers of Irish beer & food living or traveling to The Netherlands.
+O'Leary's Irish Pub & Restaurant is a site to promote an Irish pub that hopes to bring a little bit of Ireland to the people of The Netherlands. The site will be targeted toward lovers of Irish beer & food living or traveling to The Netherlands.
 
 You will see a selection of Irish beer & food on the site and be able to submit a booking!
 
