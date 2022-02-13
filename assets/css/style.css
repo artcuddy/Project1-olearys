@@ -69,11 +69,12 @@ a {
 
 header {
   width: 100%;
-  height: 75px;
-  padding: 20px;
+  padding: 20px 0 20px 0;
+  height: 45px;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 5px solid #5b5b5b;
 }
 
 #logo-wrapper {
@@ -127,6 +128,7 @@ header {
   height: 600px;
   /* overflow: hidden; */
   position: relative;
+  border-bottom: 5px solid #5b5b5b;
 }
 
 #home-hero-image {
@@ -187,6 +189,11 @@ header {
   align-items: center;
 }
 
+#pub-section img {
+  border: 5px solid #5b5b5b;
+  box-shadow: rgb(69, 69, 69) 0px 20px 30px -10px;
+}
+
 
 /* food section */
 
@@ -198,7 +205,12 @@ header {
   align-items: center;
 }
 
-/* Beer section */
+#food-section img {
+  border: 5px solid #5b5b5b;
+  box-shadow: rgb(69, 69, 69) 0px 20px 30px -10px;
+}
+
+/* beer section */
 
 #beer-section {
   width: 100%;
@@ -209,7 +221,7 @@ header {
 }
 
 #beer-image-cards {
-  padding: 75px 75px 0 75px;
+  margin-top: 75px;
   width: 100%;
   clear: both;
   display: inline-flex;
@@ -218,10 +230,19 @@ header {
 }
 
 .single-beer-cards {
+  padding: 50px;
   text-align: center;
+  border: 5px solid #5b5b5b;
+  box-shadow: rgb(69, 69, 69) 0px 20px 30px -10px;
+  transition: transform .2s;
+  /* Animation */
 }
 
-.single-beer-cards h2 {
+.single-beer-cards:hover {
+  transform: scale(1.1);
+}
+
+.single-beer-cards h3 {
   margin-top: 16px;
 }
 
@@ -229,7 +250,7 @@ header {
 footer {
   width: 100%;
   height: 75px;
-  padding: 20px;
+  margin-top: 75px;
   display: inline-flex;
   justify-content: space-evenly;
   align-items: center;
