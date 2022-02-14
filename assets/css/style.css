@@ -103,13 +103,28 @@ header {
   }
 }
 
-#nav-menu-items a {
+.nav-menu-items a {
   text-decoration: none;
   color: inherit;
 }
 
-#nav-menu-items a:hover {
+.nav-menu-items a:hover {
   border-bottom: 5px solid #5b5b5b;
+}
+
+.nav-menu-items {
+  list-style: none;
+  display: inline-flex;
+}
+
+.nav-menu-items li {
+  font-family: Bebas Neue, sans-serif;
+  margin-right: 20px;
+  font-size: clamp(1.8rem, 1.577777777777778rem + 1.111111111111111vw, 3rem);
+
+  @supports not (font-size: clamp(1.8rem, 1.111111111111111vw, 3rem)) {
+    font-size: min(max(1.8rem, 1.111111111111111vw), 3rem);
+  }
 }
 
 .active {
@@ -120,21 +135,6 @@ header {
 
 #nav-menu-wrapper {
   margin-right: 40px;
-}
-
-#nav-menu-items {
-  list-style: none;
-  display: inline-flex;
-}
-
-#nav-menu-items li {
-  font-family: Bebas Neue, sans-serif;
-  margin-right: 20px;
-  font-size: clamp(1.8rem, 1.577777777777778rem + 1.111111111111111vw, 3rem);
-
-  @supports not (font-size: clamp(1.8rem, 1.111111111111111vw, 3rem)) {
-    font-size: min(max(1.8rem, 1.111111111111111vw), 3rem);
-  }
 }
 
 /* Hero Image */
@@ -287,12 +287,12 @@ footer {
   margin-right: 40px;
 }
 
-#footer-nav-menu-items {
+.footer-nav-menu-items {
   list-style: none;
   display: inline-flex;
 }
 
-#footer-nav-menu-items li {
+.footer-nav-menu-items li {
   font-family: Bebas Neue, sans-serif;
   margin-right: 20px;
   font-size: clamp(1.8rem, 1.577777777777778rem + 1.111111111111111vw, 3rem);
