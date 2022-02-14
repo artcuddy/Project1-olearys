@@ -15,21 +15,31 @@ You will see a selection of Irish beer & food on the site and be able to submit 
   
   + This section will allow the user to easily navigate from page to page across all devices 
 
-## Nav bar screen shot placeholder
+![alt text](assets/images/screenshots/navigation-screenshot.png "Screenshot of the navigation bar")
 
 + **The Home page**
 
-  + This section introduces the user to O'Leary's Irish Pub with an eye catching animation to grab their attention
-  
-  + This section will allow the user to easily navigate from page to page across all devices 
+  + This section introduces the user to O'Leary's Irish Pub with info about the beer & food on offer
 
-## Hero Image screen shot placeholder
+![alt text](assets/images/screenshots/hero-image-screenshot.png "Screenshot of the main hero image")
 
 + **The Pub Section**
 
-  + This section introduces the user to deatils regarding the pub 
+  + This section introduces the user to details regarding the pub 
   
-## Pub Section screen shot placeholder
+![alt text](assets/images/screenshots/pub-section-screenshot.png "Screenshot of the pub section")
+
++ **The Food Section**
+
+  + This section introduces the user to details regarding the food on offer
+  
+![alt text](assets/images/screenshots/food-section-screenshot.png "Screenshot of the food section")
+
++ **The Beer Section**
+
+  + This section introduces the user to details regarding the beer on offer
+  
+![alt text](assets/images/screenshots/beer-section-screenshot.png "Screenshot of the beer section")
 
 + **The Beer page**
 
@@ -58,7 +68,7 @@ ___
 
 ## Future Features
 
-+ another feature
++ Add individual beer pages with more information
 ___
 
 ## Typography & Colour Scheme
