@@ -83,10 +83,10 @@ header {
 }
 
 #logo {
-  font-size: clamp(3rem, 2.4444444444444446rem + 2.7777777777777777vw, 6rem);
+  font-size: clamp(2.5rem, 1.8518518518518519rem + 3.2407407407407405vw, 6rem);
 
-  @supports not (font-size: clamp(3rem, 2.7777777777777777vw, 6rem)) {
-    font-size: min(max(3rem, 2.7777777777777777vw), 6rem);
+  @supports not (font-size: clamp(2.5rem, 3.2407407407407405vw, 6rem)) {
+    font-size: min(max(3rem, 3.2407407407407405vw), 6rem);
   }
 }
 
@@ -127,7 +127,6 @@ header {
 #home-hero-outer {
   width: 100%;
   height: 600px;
-  /* overflow: hidden; */
   position: relative;
   border-bottom: 5px solid #5b5b5b;
 }
@@ -137,7 +136,6 @@ header {
   background-color: #262626;
   width: 100%;
   height: 600px;
-  /* height: min(800px, 70%); */
   background-size: cover;
 }
 
@@ -257,25 +255,119 @@ footer {
   height: 75px;
   margin-top: 75px;
   display: flex;
+  flex-flow: row;
   justify-content: space-evenly;
   align-items: center;
 }
 
+#footer-nav-menu-wrapper {
+  margin-right: 40px;
+}
+
+#footer-nav-menu-items {
+  list-style: none;
+  display: inline-flex;
+}
+
+#footer-nav-menu-items li {
+  font-family: Bebas Neue, sans-serif;
+  margin-right: 20px;
+  font-size: clamp(1.8rem, 1.577777777777778rem + 1.111111111111111vw, 3rem);
+
+  @supports not (font-size: clamp(1.8rem, 1.111111111111111vw, 3rem)) {
+    font-size: min(max(1.8rem, 1.111111111111111vw), 3rem);
+  }
+}
+
 /* smaller screens media queries */
 
-@media screen and (max-width: 950px) {
-  #pub-section {
-    /* On small screens, we are no longer using row direction but column */
+@media screen and (max-width: 1200px) {
+  header {
     flex-direction: column;
+    height: 100px;
+  }
+
+  #logo-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #nav-menu-wrapper {
+    margin-right: 0; 
+  }
+  
+  #home-hero-outer {
+    width: 100%;
+    height: 500px;
+  }
+  
+  #home-hero-image {
+    width: 100%;
+    height: 500px;
+  }
+
+  #pub-section {
+    flex-direction: column;
+    margin-top: 75px;
+    padding: 30px;
+    width: 90%;
+  }
+
+  #pub-section img {
+    width: 100%;
+    margin-top: 20px
   }
 
   #food-section {
-    /* On small screens, we are no longer using row direction but column */
     flex-direction: column-reverse;
+    margin-top: 0;
+    padding: 30px;
+    width: 90%;
+  }
+
+  #food-section img {
+    width: 100%;
+    margin-top: 20px
+  }
+
+  #beer-section {
+    margin-top: 0;
+    padding: 30px;
+    width: 90%;
   }
 
   #beer-image-cards {
-    /* On small screens, we are no longer using row direction but column */
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  #beer-headline {
+    text-align: left;
+    border-bottom: 5px solid #5b5b5b;
+  }
+
+  .single-beer-cards {
+    width: 33%;
+  }
+
+  .left-box {
+    width:100%;
+    margin-left: auto;
+    padding: 0;
+  }
+
+  .right-box {
+    width:100%;
+    margin-left: auto;
+    padding: 0;
+  }
+
+  footer {
+    flex-flow: column;
+  }
+
+  #footer-nav-menu-wrapper {
+    margin: 20px 0 20px 0;
   }
 }
