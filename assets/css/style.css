@@ -101,7 +101,7 @@ header {
 
 .active {
   background-color: #5b5b5b;
-  padding: 5px 5px 0px 5px;
+  padding: 0 5px 0px 5px;
   color: #fff;
 }
 
@@ -249,6 +249,22 @@ header {
 
 .single-beer-cards h3 {
   margin-top: 16px;
+}
+
+/* menu section */
+
+#menu-section {
+  width: 100%;
+  clear: both;
+  margin-top: 50px;
+  display: inline-flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu-section h2 {
+  text-align: center;
 }
 
 /* footer */
