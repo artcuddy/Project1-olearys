@@ -47,7 +47,7 @@ You will see a selection of Irish beer & food on the site and be able to submit 
   
   + This section includes a form to make a table booking which redirects to a succes page once the requested info has been submitted. 
 
-## Beer Page screen shot placeholder
+![alt text](assets/images/screenshots/beer-page-screenshot.png "Screenshot of the beer page")
 
 + **The Food page**
 
@@ -55,15 +55,15 @@ You will see a selection of Irish beer & food on the site and be able to submit 
   
   + This section includes a form to make a table booking which redirects to a succes page once the requested info has been submitted. 
 
-## Food Page screen shot placeholder
+![alt text](assets/images/screenshots/food-page-screenshot.png "Screenshot of the beer page")
 
 + **The Contact page**
 
-  + This section uses a google map to dispolay the location of O'Leary's Pub in Utrecht, The Netherlands
+  + This section uses a google map to display the location of O'Leary's Pub in Utrecht, The Netherlands
   
   + This section includes a form to make a table booking which redirects to a succes page once the requested info has been submitted.
 
-## Contact Page screen shot placeholder
+![alt text](assets/images/screenshots/contact-page-screenshot.png "Screenshot of the beer page")
 ___
 
 ## Future Features
@@ -111,3 +111,9 @@ ___
   + No errors were returned when passing through the official W3C validator
 + CSS
   + No errors were found when passing through the official (Jigsaw) validator
+
+  ___
+# Credits
++ Images
+  + header images Unsplash
+  + pub images courtesy of O'Leary's Pub
