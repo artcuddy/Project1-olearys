@@ -43,19 +43,52 @@
   <section id="menu-section">
     <div class="left-box">
         <h2>Food Menu <i class="fa-solid fa-burger"></i></h2>
-        <div>
-            <table>
-                <th>Mains</th>
-                <tr> steak</tr>
-            </table>
+        <div id="food-menu">
+            <h3>STARTERS</h3>
+            <ul>
+                <li>Smoked Salmon €7.50</li>
+                <li>Soup of the Week €4.50</li>
+            </ul>
+            <h3>MAIN COURSES</h3>
+            <ul>
+                <li>Beefburger €10.50 Optional bacon or cheese topping €0.50 per person</li>
+                <li>Veggie Burger €10.50</li>
+                <li>Sheperd’s Pie €11.00</li>
+                <li>Veggie Pie €10.50</li>
+                <li>Steak & Mushroom Pie €12.00</li>
+                <li>Chicken & Mushroom Pie €11.00</li>
+                <li>Sizzling Steak Dublin €13.50 / € 15.50 With a topping of mushrooms & onions</li>
+                <li>Sizzling Steak Cork €13.50 / €15.50 With a topping of whiskey sauce</li>
+                <li>Sizzling Steak Kerry €13.50 / €15.50 With a topping of garlic butter</li>
+                <li>Smoked Salmon Salad €12.00</li>
+                <li>1/2 Chicken €10.50</li>
+                <li>Pan Fried Salmon €13.50</li>
+                <li>Fish & Chips €10.50</li>
+            </ul>
+                <h3>Chips &amp; Stuff</h3>
+                <ul>
+                    <li>Chips €2.10 / €3.15</li>
+                    <li>Veggie Burger €10.50</li>
+                    <li>Sausages €4.50</li>
+                    <li>Mussels €4.00</li>
+                    <li>Bitterballen €4.00</li>
+                    <li>Frikandel €4.00</li>
+                    <li>Chicken Nuggets €4.00</li>
+                    <li>Vlammetjes €4.00</li>
+                    <li>Onion Rings €4.00</li>
+                    <li>Smoked Salmon Salad €12.00</li>
+                    <li>Veggie Springrolls €4.00</li>
+                    <li>Cheese Balls €4.50</li>
+                    <li>Mixed Snacks €11.00 / €17.50</li>
+                </ul>
         </div>
 
     </div>
     <div class="right-box">
+        <h2>Book a table <i class="fa-solid fa-calendar-days"></i></h2>
         <div id="book-table-form">
             <section class="form-section">
-              <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-                <h2>Book a table <i class="fa-solid fa-calendar-days"></i></h2>
+              <form method="POST" action="https://formdump.codeinstitute.net/" class="booking-form">
                 <label for="fname">First Name</label>
                 <input class="text-input" id="fname" name="first_name" type="text" required>
       
@@ -89,8 +122,8 @@
                 <input type="radio" id="time-2100" name="time_preference" value="21:00" required>
                 </fieldset>
 
-                <label for="message">Message</label>
-                <textarea class="text-area" id="message" name="message">Enter your message here....
+                <label for="message">Optional Message</label>
+                <textarea class="text-area" id="message" name="message">
                 </textarea>
                 <input class="submit-button" type="submit" value="Book">
               </form>
