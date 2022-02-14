@@ -328,6 +328,7 @@ footer {
 font-size: 190%;
 line-height: 1.6em;
 color: #2e2e2e;
+font-weight: 600;
 }
 
 .list-menu ul {
@@ -375,7 +376,7 @@ color: #2e2e2e;
 }
 
 .text-input:hover {
-  border-color: #000000;
+  border-color: #5b5b5b;
 }
 
 .text-area {
@@ -390,7 +391,7 @@ color: #2e2e2e;
 }
 
 .text-area:hover {
-  border-color: #000000;
+  border-color: #5b5b5b;
 }
 
 fieldset {
@@ -458,9 +459,16 @@ iframe {
   margin-top: 50px;
 }
 
+/* success page on form submition */
+
+#success-heading {
+  text-align: center;
+  padding-top: 200px;
+}
+
 /* smaller screens media queries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   header {
     flex-direction: column;
     height: 100px;
