@@ -4,7 +4,7 @@ O'Leary's Irish Pub & Restaurant is a site to promote an Irish pub that hopes to
 
 You will see a selection of Irish beer & food on the site and be able to submit a booking!
 
-## Image placeholder
+![alt text](assets/images/screenshots/responsive.png "Screenshot of the O'leary's site on different screen sizes")
 ---
 
 # Features
