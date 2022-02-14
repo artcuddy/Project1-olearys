@@ -42,7 +42,7 @@
 
   <section id="menu-section">
     <div class="left-box">
-        <h2>Food Menu</h2>
+        <h2>Food Menu <i class="fa-solid fa-burger"></i></h2>
         <div>
             <table>
                 <th>Mains</th>
@@ -55,7 +55,7 @@
         <div id="book-table-form">
             <section class="form-section">
               <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-                <h2>Book a table <i class="fas fa-heartbeat"></i></h2>
+                <h2>Book a table <i class="fa-solid fa-calendar-days"></i></h2>
                 <label for="fname">First Name</label>
                 <input class="text-input" id="fname" name="first_name" type="text" required>
       
@@ -64,15 +64,35 @@
       
                 <label for="email">Email Address</label>
                 <input class="text-input" type="email" id="email" name="email_address" required>
-      
-                <label for="road">Road</label>
-                <input type="radio" id="road" name="running_preference" value="road" required>
-                <label for="trail">Trail</label>
-                <input type="radio" id="trail" name="running_preference" value="trail" required>
-                <label for="both">Both</label>
-                <input type="radio" id="both" name="running_preference" value="both" required>
-      
-                <input class="join-button" type="submit" value="Let's Run!">
+
+                <label for="phonenumber">Phone</label>
+                <input class="text-input" type="number" id="phonenumber" name="phone_number" required>
+
+                <label for="date">Date</label>
+                <input class="text-input" type="datetime-local" id="date" name="date" required>
+
+                <fieldset>
+                    <legend>Time Preference</legend>
+                <label for="time-1800">18:00</label>
+                <input type="radio" id="time-1800" name="time_preference" value="18:00" required>
+                <label for="time-1830">18:30</label>
+                <input type="radio" id="time-1830" name="time_preference" value="18:30" required>
+                <label for="time-1900">19:00</label>
+                <input type="radio" id="time-1900" name="time_preference" value="19:00" required>
+                <label for="time-1930">19:30</label>
+                <input type="radio" id="time-1930" name="time_preference" value="19:30" required>
+                <label for="time-2000">20:00</label>
+                <input type="radio" id="time-2000" name="time_preference" value="20:00" required>
+                <label for="time-2030">20:30</label>
+                <input type="radio" id="time-2030" name="time_preference" value="20:30" required>
+                <label for="time-2100">21:00</label>
+                <input type="radio" id="time-2100" name="time_preference" value="21:00" required>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea class="text-area" id="message" name="message">Enter your message here....
+                </textarea>
+                <input class="submit-button" type="submit" value="Book">
               </form>
           </div>
     
