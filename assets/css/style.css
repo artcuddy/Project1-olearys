@@ -21,7 +21,7 @@ p {
 }
 
 hr {
-  border: 2px solid #5b5b5b;
+  border: 2px solid #cdcdcd;
 }
 
 /* headings */
@@ -55,7 +55,7 @@ a {
 }
 
 a h2:hover {
-  color: #5b5b5b;
+  color: #cdcdcd;
 }
 
 /* navigation header and logo */
@@ -68,7 +68,7 @@ header {
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 5px solid #5b5b5b;
+  border-bottom: 5px solid #cdcdcd;
 }
 
 #logo-wrapper {
@@ -86,7 +86,7 @@ header {
 }
 
 .nav-menu-items a:hover {
-  border-bottom: 5px solid #5b5b5b;
+  border-bottom: 5px solid #cdcdcd;
 }
 
 .nav-menu-items {
@@ -102,9 +102,9 @@ header {
 }
 
 .active {
-  background-color: #5b5b5b;
+  background-color: #cdcdcd;
   padding: 0 5px 0px 5px;
-  color: #fff;
+  color: #000;
 }
 
 #nav-menu-wrapper {
@@ -117,12 +117,12 @@ header {
   width: 100%;
   height: 600px;
   position: relative;
-  border-bottom: 5px solid #5b5b5b;
+  border-bottom: 5px solid #cdcdcd;
 }
 
 #home-hero-image {
   background: url('../images/home-olearys-bg.webp') no-repeat center center;
-  background-color: #262626;
+  background-color: #cdcdcd;
   width: 100%;
   height: 600px;
   background-size: cover;
@@ -184,7 +184,7 @@ header {
 }
 
 .inline-image {
-  border: 5px solid #5b5b5b;
+  border: 5px solid #cdcdcd;
   box-shadow: rgb(69, 69, 69) 0px 20px 30px -10px;
   width: 99%;
   height: auto;
@@ -232,7 +232,7 @@ header {
 .single-beer-cards {
   padding: 50px;
   text-align: center;
-  border: 5px solid #5b5b5b;
+  border: 5px solid #cdcdcd;
   box-shadow: rgb(69, 69, 69) 0px 20px 30px -10px;
   transition: transform .2s;
   /* Animation */
@@ -249,12 +249,13 @@ header {
 /* footer */
 footer {
   width: 100%;
-  height: 75px;
-  margin: 75px 0 50px 0;
+  margin: 100px 0 50px 0;
+  padding-top: 30px;
   display: flex;
   flex-flow: row;
   justify-content: space-evenly;
   align-items: center;
+  border-top: 5px solid #cdcdcd;
 }
 
 #footer-nav-menu-wrapper {
@@ -277,7 +278,7 @@ footer {
 
 #food-hero-image {
   background: url('../images/bar-food-header.webp') no-repeat center center;
-  background-color: #262626;
+  background-color: #cdcdcd;
   width: 100%;
   height: 600px;
   background-size: cover;
@@ -329,14 +330,9 @@ footer {
 
 }
 
-.booking-form>h2 {
-  color: #fff;
-  margin-bottom: 20px;
-}
-
 .booking-form {
-  color: #fff;
-  background-color: #000;
+  color: #000;
+  background-color: #cdcdcd;
   max-width: 100%;
   left: 10%;
   padding: 30px;
@@ -345,33 +341,33 @@ footer {
 
 .text-input {
   background: transparent;
-  color: #fff;
+  color: #000;
   width: 100%;
   height: 25px;
   margin: 5px 0 20px 0;
-  border: 1px solid #fff;
+  border: 2px solid #000;
   border-radius: 2px;
   padding: 5px;
   font-size: 150%;
 }
 
 .text-input:hover {
-  border-color: #5b5b5b;
+  border-color: #fff;
 }
 
 .text-area {
   background: transparent;
-  color: #fff;
+  color: #000;
   width: 100%;
   height: 200px;
   margin: 5px 0 20px 0;
-  border: 1px solid #fff;
+  border: 2px solid #000;
   border-radius: 2px;
   padding: 5px;
 }
 
 .text-area:hover {
-  border-color: #5b5b5b;
+  border-color: #fff;
 }
 
 fieldset {
@@ -388,7 +384,7 @@ fieldset {
   letter-spacing: 4px;
   background-color: #000;
   color: #fff;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   display: block;
 }
 
@@ -399,7 +395,7 @@ fieldset {
 }
 
 fieldset {
-  border: 1px solid #fff;
+  border: 2px solid #000;
   border-radius: 2px;
   padding: 5px;
   width: 100%;
@@ -413,7 +409,7 @@ input[type=radio] {
 
 #beer-hero-image {
   background: url('../images/beer-header.webp') no-repeat center center;
-  background-color: #262626;
+  background-color: #cdcdcd;
   width: 100%;
   height: 600px;
   background-size: cover;
@@ -423,7 +419,7 @@ input[type=radio] {
 
 #contact-hero-image {
   background: url('../images/contact-header.webp') no-repeat center center;
-  background-color: #262626;
+  background-color: #cdcdcd;
   width: 100%;
   height: 600px;
   background-size: cover;
@@ -534,7 +530,7 @@ iframe {
 
   #beer-headline {
     text-align: left;
-    border-bottom: 5px solid #5b5b5b;
+    border-bottom: 5px solid #cdcdcd;
   }
 
   .left-box {
@@ -563,6 +559,8 @@ iframe {
   }
 
   footer {
+    margin: 50px 0 50px 0;
+    padding-top: 20px;
     flex-flow: column;
   }
 
