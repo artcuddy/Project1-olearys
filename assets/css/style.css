@@ -3,6 +3,7 @@
 
 html {
   font-size: 65.5%;
+  overflow-x: hidden;
 }
 
 * {
@@ -28,26 +29,25 @@ hr {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: 'Bebas Neue', 'sans-serif';
   font-weight: 800;
   color: #000;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   font-size: clamp(3rem, 2.4444444444444446rem + 2.7777777777777777vw, 6rem);
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-size: clamp(3rem, 2.4444444444444446rem + 2.7777777777777777vw, 6rem);
 }
 
 h3 {
-  font-size: 1.8rem;
-  font-size: clamp(1.8rem, 1.577777777777778rem + 1.111111111111111vw, 3rem);
+  font-size: 3rem;
+  font-size: clamp(2rem, 1.8148148148148149rem + 0.9259259259259258vw, 3rem);
 }
 
 a {
@@ -190,7 +190,6 @@ header {
   height: auto;
 }
 
-
 /* food section */
 
 #food-section {
@@ -249,7 +248,7 @@ header {
 /* footer */
 footer {
   width: 100%;
-  margin: 100px 0 50px 0;
+  margin: 50px 0 50px 0;
   padding-top: 30px;
   display: flex;
   flex-flow: row;
@@ -284,7 +283,7 @@ footer {
   background-size: cover;
 }
 
-/* food menu section */
+/* menu section */
 
 #menu-section {
   width: 100%;
@@ -303,7 +302,7 @@ footer {
   text-align: center;
 }
 
-/* food menu */
+/* menu */
 
 .list-menu li {
   font-size: 190%;
@@ -452,7 +451,7 @@ iframe {
 
 /* smaller screens media queries */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   header {
     flex-direction: column;
     height: 100px;
@@ -474,6 +473,8 @@ iframe {
 
   #home-overlay-text {
     width: 88%;
+    height: 120px;
+    padding: 10px 10px 10px 20px;
   }
 
   #home-hero-image {
@@ -562,8 +563,10 @@ iframe {
     padding-left: 20px;
   }
 
+  /* footer */
+
   footer {
-    margin: 50px 0 50px 0;
+    margin: 100px 0 20px 0;
     padding-top: 20px;
     flex-flow: column;
   }
@@ -591,5 +594,13 @@ iframe {
     padding-top: 10%;
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+/* smaller screens media queries */
+
+@media screen and (max-width: 950px) {
+  header {
+    height: 80px;
   }
 }
