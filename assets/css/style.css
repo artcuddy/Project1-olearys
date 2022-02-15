@@ -55,7 +55,7 @@ a {
 }
 
 a h2:hover {
-  color: #cdcdcd;
+  background-color: #cdcdcd;
 }
 
 /* navigation header and logo */
@@ -215,7 +215,10 @@ header {
 }
 
 #beer-headline {
-  text-align: center;
+  text-align: left;
+  width: 300px;
+  margin: 0 auto;
+  border-bottom: 5px solid #cdcdcd;
 }
 
 #beer-image-cards {
@@ -391,7 +394,7 @@ fieldset {
 .submit-button:hover {
   background-color: #fff;
   color: #000;
-  border: 1px solid #fff;
+  border: 2px solid #000;
 }
 
 fieldset {
@@ -534,8 +537,7 @@ iframe {
   }
 
   #beer-headline {
-    text-align: left;
-    border-bottom: 5px solid #cdcdcd;
+    width: 100%;
   }
 
   .left-box {
