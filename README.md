@@ -110,8 +110,13 @@ ___
 ___
 
 # Testing
++ Lighthouse
+  + The site has been tested with Lighthouse and is 100% Accessible 
 
+![alt text](assets/images/screenshots/lighthouse-screenshot.png "Screen shot of the Lighthouse results")
 
++ Responsive design
+  + The site has been tested on all screen sizes and is responsive
 ___
 # Validator Testing
 + HTML
