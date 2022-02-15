@@ -41,6 +41,13 @@ You will see a selection of Irish beer & food on the site and be able to submit 
   
 ![alt text](assets/images/screenshots/beer-section-screenshot.png "Screenshot of the beer section")
 
++ **The Footer**
+
+  + This section has a menu for site navigation.
+  + The section also includes a Facebook social link that will open up in a new tab for easy navigation.
+  
+![alt text](assets/images/screenshots/footer-screenshot.png "Screenshot of the footer section")
+
 + **The Beer page**
 
   + This section introduces the user to the beer menu available
@@ -55,7 +62,7 @@ You will see a selection of Irish beer & food on the site and be able to submit 
   
   + This section includes a form to make a table booking which redirects to a succes page once the requested info has been submitted. 
 
-![alt text](assets/images/screenshots/food-page-screenshot.png "Screenshot of the beer page")
+![alt text](assets/images/screenshots/food-page-screenshot.png "Screenshot of the food page")
 
 + **The Contact page**
 
@@ -63,7 +70,7 @@ You will see a selection of Irish beer & food on the site and be able to submit 
   
   + This section includes a form to make a table booking which redirects to a succes page once the requested info has been submitted.
 
-![alt text](assets/images/screenshots/contact-page-screenshot.png "Screenshot of the beer page")
+![alt text](assets/images/screenshots/contact-page-screenshot.png "Screenshot of the contact page")
 ___
 
 ## Future Features
@@ -103,7 +110,7 @@ ___
 ___
 
 # Testing
-Testing results or bugs to go here
+
 
 ___
 # Validator Testing
@@ -113,7 +120,20 @@ ___
   + No errors were found when passing through the official (Jigsaw) validator
 
   ___
+# Deployment
++ The site was deployed to GitHub pages. The steps to deploy are as follows
+  + In the GitHub repository, navigate to the Settings tab
+  + From the pages tab select the source section drop-down menu, select the Master Branch.
+  + The master branch was selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+
+The live link can be found here - <https://artcuddy.github.io/Project1-olearys/index.html>
+
+  ___
 # Credits
-+ Images
-  + header images Unsplash
-  + pub images courtesy of O'Leary's Pub
+
++ Content
+  + All icons are from [Font Awesome](https://fontawesome.com/ "Font Awesome")
+
++ Media
+  + Images [Unsplash](https://unsplash.com/ "Unsplash")
+  + Some images have been taken by me

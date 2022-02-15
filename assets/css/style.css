@@ -364,6 +364,7 @@ footer {
   border: 2px solid #000;
   border-radius: 2px;
   padding: 5px;
+  font-size: 150%;
 }
 
 .text-area:hover {
