@@ -136,10 +136,8 @@ ___
   ___
 # Deployment
 
-+ The site was deployed to GitHub pages. The steps to deploy are as follows
-  + In the GitHub repository, navigate to the Settings tab
-  + From the pages tab select the source section drop-down menu, select the Master Branch.
-  + The master branch was selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
++ The site was developed in Gitpod. 
++ The site was deployed to GitHub pages. 
 
 The live link can be found here - <https://artcuddy.github.io/Project1-olearys/index.html>
 
