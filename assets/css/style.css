@@ -580,6 +580,7 @@ iframe {
   /* google map */
   iframe {
     width: 100%;
+    height: 494px;
     margin-bottom: 50px;
   }
 
