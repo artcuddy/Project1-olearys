@@ -437,6 +437,9 @@ input[type=radio] {
 /* Google Map Styling */
 
 iframe {
+  width: 700px;
+  height: 494px;
+  border: 0;
   margin-top: 50px;
 }
 
