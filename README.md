@@ -105,11 +105,13 @@ ___
 ___
 
 # Technology
+
 + HTML
 + CSS
 ___
 
 # Testing
+
 + Lighthouse
   + The site has been tested with Lighthouse and is 100% Accessible 
 
@@ -119,13 +121,21 @@ ___
   + The site has been tested on all screen sizes and is responsive
 ___
 # Validator Testing
+
 + HTML
   + No errors were returned when passing through the official W3C validator 
 + CSS
   + No errors were found when passing through the official (Jigsaw) validator
 
+___
+# Bugs
+
++ HTML
+  + Found some issues with the form redirection before deyployment but fixed them all.
+
   ___
 # Deployment
+
 + The site was deployed to GitHub pages. The steps to deploy are as follows
   + In the GitHub repository, navigate to the Settings tab
   + From the pages tab select the source section drop-down menu, select the Master Branch.
