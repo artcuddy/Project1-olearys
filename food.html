@@ -18,12 +18,12 @@
 <body>
   <!-- header and hero image section -->
   <header>
-    <div id="logo-wrapper">
+    <div class="logo-wrapper">
       <a href="index.html">
-        <h1 id="logo">O'Leary's Irish Pub &amp; Restaurant</h1>
+        <h1 class="logo">O'Leary's Irish Pub &amp; Restaurant</h1>
       </a>
     </div>
-    <nav id="nav-menu-wrapper">
+    <nav class="nav-menu-wrapper">
       <ul class="nav-menu-items">
         <li>
           <a href="index.html">HOME</a>
@@ -40,118 +40,93 @@
       </ul>
     </nav>
   </header>
-  <section id="home-hero-outer">
-    <div id="food-hero-image"></div>
-    <div id="home-overlay-text">
+  <section class="hero-outer">
+    <div id="food-hero-image" class="hero-image"></div>
+    <div class="hero-overlay-text">
       <h2>Good Food &ndash; Good Craic &ndash; Good Times</h2>
     </div>
   </section>
 
   <!-- menu section-->
-  <section id="menu-section">
+  <div class="menu-heading">
+    <h2>Food Menu <i class="fa-solid fa-burger"></i></h2>
+  </div>
+  <section class="menu-section">
     <div class="left-box">
-      <h2>Food Menu <i class="fa-solid fa-burger"></i></h2>
       <div class="list-menu">
-        <h3>MAIN COURSES</h3>
+        <h3>APPETIZERS</h3>
         <ul>
-          <li>Beefburger €10.50</li>
-          <li>Veggie Burger €10.50</li>
-          <li>Sheperd&apos;s Pie €11.00</li>
-          <li>Veggie Pie €10.50</li>
-          <li>Steak & Mushroom Pie €12.00</li>
-          <li>Chicken & Mushroom Pie €11.00</li>
-          <li>Sizzling Steak Dublin €13.50 / € 15.50 with onions</li>
-          <li>Sizzling Steak Cork €13.50 / €15.50 with whiskey sauce</li>
-          <li>Sizzling Steak Kerry €13.50 / €15.50 with garlic butter</li>
-          <li>Smoked Salmon Salad €12.00</li>
-          <li>1/2 Chicken €10.50</li>
-          <li>Pan Fried Salmon €13.50</li>
-          <li>Fish & Chips €10.50</li>
+          <li>Fresh Soup of the Day €6.80</li>
+          <li>Howth Chowder €11.50 <br><span>cod, salmon, smoked haddock, oak smoked salmon,
+              creamy vegetable velouté, fresh dill, brown soda bread</span></li>
+          <li>Twice Cooked Wings €11.00 <br><span>hot & spicy bbq sauces, Cashel blue cheese dip, celery stalks</span>
+          </li>
+          <li>Open Smoked Salmon Sandwich €13.50 <br><span>brown bread, Howth smoked salmon, capers, red onions,
+              dill crème fraîche, Marie Rose sauce, salad garnish</span></li>
         </ul>
-        <h3>Chips &amp; Stuff</h3>
+        <h3>Sea Food</h3>
         <ul>
-          <li>Chips €2.10 / €3.15</li>
-          <li>Veggie Burger €10.50</li>
-          <li>Sausages €4.50</li>
-          <li>Mussels €4.00</li>
-          <li>Bitterballen €4.00</li>
-          <li>Frikandel €4.00</li>
-          <li>Chicken Nuggets €4.00</li>
-          <li>Vlammetjes €4.00</li>
-          <li>Onion Rings €4.00</li>
-          <li>Smoked Salmon Salad €12.00</li>
+          <li>Traditional Fish & Chips €18.70 <br><span>fresh north atlantic cod, galway hooker craft beer batter, mushy
+              peas, house tartare sauce</span></li>
+          <li>Prawn Scampi €23.00 <br><span>succulent prawns cooked in Galway hooker craft beer batter, salad
+              garnish, homemade sweet chilli salsa, house tartare sauce</span></li>
+          <li>Fisherman's Platter €26.50 <br><span>poached salmon, crab mayonnaise, tiger prawns, smoked salmon, anchovy
+              salad, roll mop,
+              dill creme fraiche, Marie Rose & cocktail sauces </span></li>
+          <li>Fishermans Pie €18.70 <br><span>smoked haddock, salmon, coley, creamy vegetable velouté
+              creamy mashed potato topping</span></li>
+          <li>Baked Fillet of Salmon €18.70 <span>baked fillet of fresh salmon with green herb pesto, creamy mashed
+              potato,
+              tenderstem broccoli, green beans, rocket leaves, herb cream sauce</span></li>
         </ul>
       </div>
 
     </div>
     <div class="right-box">
-      <h2>Book a table <i class="fa-solid fa-calendar-days"></i></h2>
-      <div id="book-table-form">
-        <form action="success.html" class="booking-form">
-          <label for="fname">First Name</label>
-          <input class="text-input" id="fname" name="first_name" type="text" required>
-
-          <label for="lname">Last Name</label>
-          <input class="text-input" id="lname" name="last_name" type="text" required>
-
-          <label for="email">Email Address</label>
-          <input class="text-input" type="email" id="email" name="email_address" required>
-
-          <label for="phonenumber">Phone</label>
-          <input class="text-input" type="number" id="phonenumber" name="phone_number" required>
-
-          <label for="date">Date</label>
-          <input class="text-input" type="date" id="date" name="date" required>
-
-          <fieldset>
-            <legend>Time Preference</legend>
-            <label for="time-1800">18:00</label>
-            <input type="radio" id="time-1800" name="time_preference" value="18:00" required>
-            <label for="time-1830">18:30</label>
-            <input type="radio" id="time-1830" name="time_preference" value="18:30" required>
-            <label for="time-1900">19:00</label>
-            <input type="radio" id="time-1900" name="time_preference" value="19:00" required>
-            <label for="time-1930">19:30</label>
-            <input type="radio" id="time-1930" name="time_preference" value="19:30" required>
-            <label for="time-2000">20:00</label>
-            <input type="radio" id="time-2000" name="time_preference" value="20:00" required>
-            <label for="time-2030">20:30</label>
-            <input type="radio" id="time-2030" name="time_preference" value="20:30" required>
-            <label for="time-2100">21:00</label>
-            <input type="radio" id="time-2100" name="time_preference" value="21:00" required>
-          </fieldset>
-
-          <label for="message">Optional Message</label>
-          <textarea class="text-area" id="message" name="message">
-                </textarea>
-          <input class="submit-button" type="submit" value="Book">
-        </form>
+      <div class="list-menu">
+        <h3>FROM THE GRILL</h3>
+        <ul>
+          <li>8oz 28 Day Aged Sirloin Steak €27.00 <br><span>The Optimum Cut of Beef for Flavour and Tenderness.</span>
+          </li>
+          <li>6oz 28 Day Aged Petit Fillet €29.50 <br><span>A smaller portion of our most tender Cut of Beef</span></li>
+          <li>8oz 28 Day Aged Fillet Mignon €35.50 <br><span>Hot & spicy bbq sauces, Cashel blue cheese dip, celery
+              stalks</span></li>
+          <li><span>The Most Tender Cut of Beef.
+              Our prime Irish steaks are served with Teelings whiskey peppercorn sauce or garlic butter
+              and a choice of Creamed Potato or French Fried Potatoes.</span></li>
+        </ul>
+        <h3>Gourmet Burgers</h3>
+        <ul>
+          <li>Gourmet Bacon Cheeseburger €17.80 <br><span>Prime lean Irish beef burger, vintage cheddar cheese, crispy
+              bacon, pickles, beef tomato,
+              onion, lettuce on toasted brioche bun. French fried potatoes and a side of coleslaw.</span></li>
+          <li>Cajun Chicken Burger €17.80 <br><span>butterflied breast of Irish chicken with Cajun spices, crispy bacon,
+              beef tomato,
+              lettuce & mayonnaise on toasted brioche bun. French fried potatoes and side of coleslaw.</span></li>
+        </ul>
+        <h3>SIDE DISHES</h3>
+        <ul>
+          <li>French Fried Potatoes €4.00</li>
+          <li>CreamyMashed Potatoes €4.00</li>
+          <li>Champ Spring Onion Mash €4.00</li>
+          <li>Seasonal Vegetables €4.00</li>
+        </ul>
       </div>
     </div>
+    </div>
   </section>
+  <div class="menu-button-wrapper"><a href="contact.html" aria-label="Book a table"><button
+        class="button">Book</button></a></div>
 
   <!-- footer section-->
   <footer>
     <a href="https://www.facebook.com/olearysutrecht/" target="_blank"
-      aria-label="Folow us on Facebook (opens in new tab)">
+      aria-label="Follow us on Facebook (opens in new tab)">
       <h3><i class="fa-brands fa-facebook-square"></i> Follow us on Facebook</h3>
     </a>
-    <nav id="footer-nav-menu-wrapper">
-      <ul class="nav-menu-items">
-        <li>
-          <a href="index.html">HOME</a>
-        </li>
-        <li class="active">
-          <a href="food.html">FOOD</a>
-        </li>
-        <li>
-          <a href="beer.html">BEER</a>
-        </li>
-        <li>
-          <a href="contact.html">CONTACT</a>
-        </li>
-      </ul>
-    </nav>
+    <a href="https://www.twitter.com" target="_blank" aria-label="Follow us on Twitter(opens in new tab)">
+      <h3><i class="fa-brands fa-twitter-square"></i> Follow us on Twitter</h3>
+    </a>
   </footer>
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/cd8a454e0f.js" crossorigin="anonymous"></script>
