@@ -652,3 +652,11 @@ iframe {
     flex-flow: column;
   }
 }
+
+/* smaller screens @ max 375px media queries */
+
+@media screen and (max-width: 375px) {
+  .hero-overlay-text h2 {
+    font-size: 4rem;
+  }
+}
