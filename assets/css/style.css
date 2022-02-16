@@ -354,6 +354,7 @@ footer {
   text-align: center;
 }
 
+
 /* booking form */
 .book-table-form {
   font-size: 130%;
@@ -580,9 +581,13 @@ iframe {
   /* success page */
   .success-heading {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 20%;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .success-footer {
+    margin-top: 30%;
   }
 }
 
@@ -620,9 +625,17 @@ iframe {
   header {
     height: 80px;
   }
+
+  .success-heading {
+    padding-top: 40%;
+  }
+
+  .success-footer {
+    margin-top: 50%;
+  }
 }
 
-/* smaller screens @ max 950 px media queries */
+/* smaller screens @ max 450px media queries */
 
 @media screen and (max-width: 450px) {
   header {
