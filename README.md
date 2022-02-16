@@ -4,7 +4,7 @@ O'Leary's Irish Pub & Restaurant is a site to promote an Irish pub that hopes to
 
 You will see a selection of Irish beer & food on the site and be able to submit a booking!
 
-![alt text](assets/images/screenshots/responsive.png "Screenshot of the O'leary's site on different screen sizes")
+![alt text](docs/screenshots/responsive.png "Screenshot of the O'leary's site on different screen sizes")
 ---
 
 # Features
@@ -15,38 +15,38 @@ You will see a selection of Irish beer & food on the site and be able to submit 
   
   + This section will allow the user to easily navigate from page to page across all devices 
 
-![alt text](assets/images/screenshots/navigation-screenshot.png "Screenshot of the navigation bar")
+![alt text](docs/screenshots/navigation-screenshot.png "Screenshot of the navigation bar")
 
 + **The Home page**
 
   + This section introduces the user to O'Leary's Irish Pub with info about the beer & food on offer
 
-![alt text](assets/images/screenshots/hero-image-screenshot.png "Screenshot of the main hero image")
+![alt text](docs/screenshots/hero-image-screenshot.png "Screenshot of the main hero image")
 
 + **The Pub Section**
 
   + This section introduces the user to details regarding the pub 
   
-![alt text](assets/images/screenshots/pub-section-screenshot.png "Screenshot of the pub section")
+![alt text](docs/images/screenshots/pub-section-screenshot.png "Screenshot of the pub section")
 
 + **The Food Section**
 
   + This section introduces the user to details regarding the food on offer
   
-![alt text](assets/images/screenshots/food-section-screenshot.png "Screenshot of the food section")
+![alt text](docs/screenshots/food-section-screenshot.png "Screenshot of the food section")
 
 + **The Beer Section**
 
   + This section introduces the user to details regarding the beer on offer
   
-![alt text](assets/images/screenshots/beer-section-screenshot.png "Screenshot of the beer section")
+![alt text](docs/screenshots/beer-section-screenshot.png "Screenshot of the beer section")
 
 + **The Footer**
 
   + This section has a menu for site navigation.
   + The section also includes a Facebook social link that will open up in a new tab for easy navigation.
   
-![alt text](assets/images/screenshots/footer-screenshot.png "Screenshot of the footer section")
+![alt text](docs/screenshots/footer-screenshot.png "Screenshot of the footer section")
 
 + **The Beer page**
 
@@ -54,7 +54,7 @@ You will see a selection of Irish beer & food on the site and be able to submit 
   
   + This section includes a form to make a table booking which redirects to a succes page once the requested info has been submitted. 
 
-![alt text](assets/images/screenshots/beer-page-screenshot.png "Screenshot of the beer page")
+![alt text](docs/screenshots/beer-page-screenshot.png "Screenshot of the beer page")
 
 + **The Food page**
 
@@ -62,7 +62,7 @@ You will see a selection of Irish beer & food on the site and be able to submit 
   
   + This section includes a form to make a table booking which redirects to a succes page once the requested info has been submitted. 
 
-![alt text](assets/images/screenshots/food-page-screenshot.png "Screenshot of the food page")
+![alt text](docs/screenshots/food-page-screenshot.png "Screenshot of the food page")
 
 + **The Contact page**
 
@@ -70,7 +70,7 @@ You will see a selection of Irish beer & food on the site and be able to submit 
   
   + This section includes a form to make a table booking which redirects to a succes page once the requested info has been submitted.
 
-![alt text](assets/images/screenshots/contact-page-screenshot.png "Screenshot of the contact page")
+![alt text](docs/screenshots/contact-page-screenshot.png "Screenshot of the contact page")
 ___
 
 ## Future Features
@@ -88,19 +88,19 @@ ___
 
 + Homepage
 
-![alt text](assets/images/wireframes/home-page.png "Wireframe of the O'leary's homepage layout")
+![alt text](docs/wireframes/home-page.png "Wireframe of the O'leary's homepage layout")
 
 + Beer Page
 
-![alt text](assets/images/wireframes/beer-page.png "Wireframe of the O'leary's beer page layout")
+![alt text](docs/wireframes/beer-page.png "Wireframe of the O'leary's beer page layout")
 
 + Food Page
 
-![alt text](assets/images/wireframes/food-page.png "Wireframe of the O'leary's food page layout")
+![alt text](docs/wireframes/food-page.png "Wireframe of the O'leary's food page layout")
 
 + Contact Page
 
-![alt text](assets/images/wireframes/contact-page.png "Wireframe of the O'leary's contact page layout")
+![alt text](docs/wireframes/contact-page.png "Wireframe of the O'leary's contact page layout")
 
 ___
 
@@ -115,7 +115,7 @@ ___
 + Lighthouse
   + The site has been tested with Lighthouse and is 100% Accessible 
 
-![alt text](assets/images/screenshots/lighthouse-screenshot.png "Screen shot of the Lighthouse results")
+![alt text](docs/screenshots/lighthouse-screenshot.png "Screen shot of the Lighthouse results")
 
 + Responsive design
   + The site has been tested on all screen sizes and is responsive
