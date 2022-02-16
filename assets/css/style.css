@@ -210,6 +210,7 @@ header {
   border: 2px solid #fff;
   display: block;
   margin-top: 2em;
+  width: 200px;
 }
 
 .button:hover {
@@ -320,7 +321,7 @@ footer {
 
 .menu-button-wrapper {
   margin: 0 auto 3em auto;
-  width: 125px;
+  width: 200px;
 }
 
 /* menu */
@@ -545,6 +546,10 @@ iframe {
 
   .menu-section h2 {
     margin-bottom: 20px;
+  }
+
+  .menu-button-wrapper {
+    width: 265px;
   }
 
   .contact-section {
