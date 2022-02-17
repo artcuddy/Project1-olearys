@@ -467,6 +467,10 @@ iframe {
     height: 100px;
   }
 
+  .logo-wrapper {
+    margin-left: 0;
+  }
+
   .nav-menu-wrapper {
     margin-right: 0;
     margin-bottom: 3em;
