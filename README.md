@@ -25,13 +25,13 @@ You will see a selection of Irish beer & food on the site and be able to submit 
 
 + **The Pub Section**
 
-  + This section introduces the user to details regarding the pub 
+  + This section introduces the user to details regarding the pub and a button to view the beer menu
   
-![alt text](docs/images/screenshots/pub-section-screenshot.png "Screenshot of the pub section")
+![alt text](docs/screenshots/pub-section-screenshot.png "Screenshot of the pub section")
 
 + **The Food Section**
 
-  + This section introduces the user to details regarding the food on offer
+  + This section introduces the user to details regarding the food on offer and a button to view the food menu
   
 ![alt text](docs/screenshots/food-section-screenshot.png "Screenshot of the food section")
 
@@ -43,8 +43,7 @@ You will see a selection of Irish beer & food on the site and be able to submit 
 
 + **The Footer**
 
-  + This section has a menu for site navigation.
-  + The section also includes a Facebook social link that will open up in a new tab for easy navigation.
+  + The section also includes a Facebook & Twitter social link that will open up in a new tab for easy navigation.
   
 ![alt text](docs/screenshots/footer-screenshot.png "Screenshot of the footer section")
 
@@ -52,7 +51,7 @@ You will see a selection of Irish beer & food on the site and be able to submit 
 
   + This section introduces the user to the beer menu available
   
-  + This section includes a form to make a table booking which redirects to a succes page once the requested info has been submitted. 
+  + This section includes a button to book a table
 
 ![alt text](docs/screenshots/beer-page-screenshot.png "Screenshot of the beer page")
 
@@ -60,7 +59,7 @@ You will see a selection of Irish beer & food on the site and be able to submit 
 
   + This section introduces the user to the food menu available
   
-  + This section includes a form to make a table booking which redirects to a succes page once the requested info has been submitted. 
+  + This section includes a button to book a table 
 
 ![alt text](docs/screenshots/food-page-screenshot.png "Screenshot of the food page")
 
@@ -108,6 +107,8 @@ ___
 
 + HTML
 + CSS
++ Gitpod
++ Github
 ___
 
 # Testing
@@ -118,7 +119,7 @@ ___
 ![alt text](docs/screenshots/lighthouse-screenshot.png "Screen shot of the Lighthouse results")
 
 + Responsive design
-  + The site has been tested on all screen sizes and is responsive
+  + The site has been tested on Iphone12, Ipad and desktop and is responsive
 ___
 # Validator Testing
 
@@ -136,8 +137,10 @@ ___
   ___
 # Deployment
 
-+ The site was developed in Gitpod. 
-+ The site was deployed to GitHub pages. 
++ The site was deployed to GitHub pages. The steps to deploy are as follows:
+  + In the GitHub repository, navigate to the Settings tab
+  + From the source section drop-down menu, select the Master Branch
+  + Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - <https://artcuddy.github.io/Project1-olearys/index.html>
 
