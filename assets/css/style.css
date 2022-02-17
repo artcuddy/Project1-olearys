@@ -82,8 +82,8 @@ header {
 }
 
 .logo {
-  font-size: 2rem;
-  font-size: clamp(2rem, 1.2592592592592593rem + 3.7037037037037033vw, 6rem);
+  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 0.6666666666666667rem + 4.166666666666666vw, 6rem);
 }
 
 .nav-menu-items a {
@@ -648,8 +648,8 @@ iframe {
   footer {
     flex-flow: column;
   }
+
   .hero-overlay-text h2 {
     font-size: 3rem;
   }
 }
-
