@@ -82,8 +82,8 @@ header {
 }
 
 .logo {
-  font-size: 2.5rem;
-  font-size: clamp(2.5rem, 1.8518518518518519rem + 3.2407407407407405vw, 6rem);
+  font-size: 2rem;
+  font-size: clamp(2rem, 1.2592592592592593rem + 3.7037037037037033vw, 6rem);
 }
 
 .nav-menu-items a {
@@ -467,12 +467,6 @@ iframe {
     height: 100px;
   }
 
-  .logo-wrapper {
-    width: 368px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .nav-menu-wrapper {
     margin-right: 0;
     margin-bottom: 3em;
@@ -645,16 +639,13 @@ iframe {
 /* smaller screens @ max 450px media queries */
 
 @media screen and (max-width: 450px) {
+
   /* footer */
   footer {
     flex-flow: column;
   }
-}
-
-/* smaller screens @ max 375px media queries */
-
-@media screen and (max-width: 375px) {
   .hero-overlay-text h2 {
     font-size: 3rem;
   }
 }
+
