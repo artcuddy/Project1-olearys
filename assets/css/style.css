@@ -645,10 +645,6 @@ iframe {
 /* smaller screens @ max 450px media queries */
 
 @media screen and (max-width: 450px) {
-  header {
-    height: 65px;
-  }
-
   /* footer */
   footer {
     flex-flow: column;
@@ -659,6 +655,6 @@ iframe {
 
 @media screen and (max-width: 375px) {
   .hero-overlay-text h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
